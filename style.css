@@ -1,0 +1,112 @@
+body{
+    background: url(image/coast-landscape-digital-art_23-2151575960.avif);
+    background-attachment: fixed;
+    position: relative;
+    
+}
+.maindiv{
+    position: relative;
+    position: absolute;
+    top: 15vh;
+    left:30vw;
+    /* background: white; */
+    width: 45vw;
+    height: 550px;
+    /* color: white; */
+    /* border: 2px solid; */
+   backdrop-filter: blur(5px);
+   box-shadow: 0px 0px 30px rgba(227, 228, 237,0.37);
+   border: 00000.5px solid rgba(225, 225,225,0.5);
+    color: rgba(225, 225, 225,990);
+}
+h2{
+    text-transform: uppercase;
+    margin-left: 30px;
+    color: yellow;
+}
+h4{
+    color: yellow;
+}
+.subdiv1{
+    position: absolute;
+    left: 30px;
+}
+textarea{
+    width: 31vw;
+}
+.user{
+    font-size: 12px;
+    margin-left: 14px;
+    margin-top: 5px;
+}.Add div{
+    margin-block: 20px; 
+}
+.subdiv2{
+    /* border: 2px solid; */
+    /* display:inline; */
+    position: absolute;
+    left: 15vw;
+    top: 4.5vh;
+    
+}
+.subdiv2 input{
+    width: 15vw;
+    height: 25px;
+}
+.subdiv2 label,input{
+    margin: 10px;
+    
+}
+button{
+    position:absolute;
+    bottom: 0px;
+    padding: 10px;
+    width: 20vw;
+    left: 17vw;
+    background: blue;
+    color: white;
+}
+aside{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+li:hover{
+    background: blue;
+    cursor: pointer;
+}
+ li{
+
+    list-style: none;
+    margin: 20px;
+ }
+ i{
+    font-size: 20px;
+    /* margin-left: 20px; */
+}
+li i{
+    margin-left: 20px;
+    color: skyblue;
+}
+h4+i{
+    font-size: 70px;
+    margin-left: 20px;
+    color: black;
+    
+
+}
+.subdiv1 i{
+    margin-right: 20px;
+    /* color: blue;  */
+}
+
+
+
+
+
+
+
+ 
+
+
+ 
