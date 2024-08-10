@@ -1,85 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/cdajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
     <form action="" target="_blank">
-      <div class="maindiv">
-        <h2>Profile</h2>
-        <div class="subdiv1">
-          <h4>Avatar profile</h4>
-          <i class="fa fa-user" aria-hidden="true"></i><br />
-          <summary class="user">User-Profile</summary>
-          <div class="Add">
-            <div><i class="fa-brands fa-facebook"></i>Add Facebook</div>
-            <div><i class="fa-brands fa-twitter"></i>Add Twiter</div>
-            <div>
-              <i class="fa-brands fa-square-instagram"></i>Add Instagram
+        <div class="maindiv">
+            <h2>Profile</h2>
+            <div class="subdiv1">
+                <h4>Avatar profile</h4>
+                <i class="fa fa-user" aria-hidden="true"></i><br>
+                <summary class="user">User-Profile</summary>
+                <div class="Add">
+                    <div><i class="fa-regular fa-user"></i>Add Facebook</div>
+                    <div><i class="fa-brands fa-twitter"></i>Add Twiter</div>
+                    <div><i class="fa-brands fa-square-instagram"></i>Add Instagram</div>
+                    <div><i class="fa-brands fa-google"></i>Add Google+</div>
+                </div>
+                <div class="subdiv2">
+                    <label for="username">UserName</label><br>
+                    <input type="text" name="UserName" id="username" placeholder="Varkees A"><br>
+                    <label for="Email">E-mail</label><br>
+                    <input type="email" id="Email" name="email" placeholder="Example@gmail.com"><br>
+                    <label for="Possword">Possword</label><br>
+                    <input type="password" name="Possword" id="Possword" placeholder="**************"><br>
+                    <label for="confirm">confirm Possword</label><br>
+                    <input type="password" name="confirm Possword" id="confirm" placeholder="**************"><br>
+                </div>
+             
+                <label for="textarea">About Me:</label><br>
+                <textarea name="About Me" id="textarea"></textarea>
+                <button>Update information</button>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
-            <div><i class="fa-brands fa-google"></i>Add Google+</div>
-          </div>
-          <div class="subdiv2">
-            <label for="username">UserName</label><br />
-            <input
-              type="text"
-              name="UserName"
-              id="username"
-              placeholder="Varkees A"
-            /><br />
-            <label for="Email">E-mail</label><br />
-            <input
-              type="email"
-              id="Email"
-              name="email"
-              placeholder="Example@gmail.com"
-            /><br />
-            <label for="Possword">Possword</label><br />
-            <input
-              type="password"
-              name="Possword"
-              id="Possword"
-              placeholder="**************"
-            /><br />
-            <label for="confirm">confirm Possword</label><br />
-            <input
-              type="password"
-              name="confirm Possword"
-              id="confirm"
-              placeholder="**************"
-            /><br />
-          </div>
-
-          <label for="textarea">About Me:</label><br />
-          <textarea name="About Me" id="textarea"></textarea>
-          <button>Update information</button>
-          <br />
-          <br />
-          <br />
-          <br />
+            <aside>
+                <nav>
+                    <ul>
+                        <li>Profile<i class="fa-solid fa-user"></i></li>
+                        <li>Stattistics<i class="fa-solid fa-signal"></i></li>
+                        <li>Get help<i class="fa-solid fa-circle-exclamation"></i></li>
+                        <li>Settings<i class="fa-solid fa-gear"></i></li>
+                        <li>Sign Out<i class="fa-solid fa-power-off"></i></li>
+                    </ul>
+                </nav>
+            </aside>
         </div>
-        <aside>
-          <nav>
-            <ul>
-              <li>Profile<i class="fa-solid fa-user"></i></li>
-              <li>Stattistics<i class="fa-solid fa-signal"></i></li>
-              <li>Get help<i class="fa-solid fa-circle-exclamation"></i></li>
-              <li>Settings<i class="fa-solid fa-gear"></i></li>
-              <li>Sign Out<i class="fa-solid fa-power-off"></i></li>
-            </ul>
-          </nav>
-        </aside>
-      </div>
+
+    
     </form>
-  </body>
+</body>
 </html>
